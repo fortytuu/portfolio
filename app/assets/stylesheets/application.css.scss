@@ -1,0 +1,49 @@
+/*
+*= require_tree .
+*= require_self
+*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.social-media li {
+	display: inline-block;
+}
+
+.social-media li a {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+}
+
+.github {
+  background-image: url(https://db.tt/8gYuyKwM);
+  background-position: center center;
+}
+.linkedin {
+  background-image: url(https://db.tt/9RzGspHe);
+  background-position: center center;
+}
+.twitter {
+  background-image: url(https://db.tt/yKtA8xUT);
+  background-position: center center;
+}
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */

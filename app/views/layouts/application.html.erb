@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:500,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+  <h1>Willkommen auf meiner Seite</h1>
+</header>
+
+<nav>
+  <ul>
+    <li>Portfolio</li> 
+    <li>Blog</li> 
+    <li>About</li> 
+    <li>Contact</li>
+  </ul>
+</nav>
+
+<%= yield %>
+
+  <div class="footer">
+    <div class="container">
+      <ul class="social-media">
+        <li><a class="github" href="#" title='Zu meinem Github Profil'></a></li> 
+        <li><a class="linkedin" href="#" title='Zu meinem LinkedIn Profil'></a></li> 
+        <li><a class="twitter" href="#" title='Zu meinem Twitter Profil'></a></li>
+      </ul> 
+      <p>© 2015 Veron</p> 
+    </div> 
+	</div>
+  
+</body>  
+</html>
